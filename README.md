@@ -1,6 +1,6 @@
 # Docker for Perplexity-Inspired LLM Answer Engine 
 
-You can run this docker on any amd64 machine using following pull command:
+You can deploy this Docker image on any amd64 machine by following these steps:
 
 Step 1. Pull the Docker Image: 
 
