@@ -45,4 +45,11 @@ Step 2: Run the docker compose file via following command:
 
     ```
 
+### Obtaining API Keys
+
+- **OpenAI API Key**: [Generate your OpenAI API key here](https://platform.openai.com/account/api-keys).
+- **Groq API Key**: [Get your Groq API key here](https://console.groq.com/keys).
+- **Brave Search API Key**: [Obtain your Brave Search API key here](https://brave.com/search/api/).
+- **Serper API Key**: [Get your Serper API key here](https://serper.dev/).
+
 Original Repo: https://github.com/developersdigest/llm-answer-engine/tree/main
