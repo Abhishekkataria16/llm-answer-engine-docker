@@ -6,6 +6,7 @@ Step 1. Pull the Docker Image:
     ```
     docker pull abhishekkataria16/llm-answer-engine
     ```
+
 Step 2. Create a `.env` file in the root of your project and add your API keys:
     ```
     OPENAI_API_KEY=your_openai_api_key
@@ -13,6 +14,7 @@ Step 2. Create a `.env` file in the root of your project and add your API keys:
     BRAVE_SEARCH_API_KEY=your_brave_search_api_key
     SERPER_API=your_serper_api_key
     ```
+    
 Step 3. Run Docker with following command:
 
     ```
