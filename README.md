@@ -8,7 +8,7 @@ Step 1. Pull the Docker Image:
     docker pull abhishekkataria16/llm-answer-engine
     ```
 
-Step 2. Create a `.env` file in the root of your project and add your API keys:
+Step 2. Create a `.env` file and add your API keys:
 
     ```
     OPENAI_API_KEY=your_openai_api_key
