@@ -1,4 +1,40 @@
-# Perplexity-Inspired LLM Answer Engine
+# Docker for Perplexity-Inspired LLM Answer Engine 
+
+You can run this docker on any amd64 machine using following pull command:
+
+Step 1. Pull the Docker Image: 
+    ```
+    docker pull abhishekkataria16/llm-answer-engine
+
+    ```
+Step 2. Create a `.env` file in the root of your project and add your API keys:
+    ```
+    OPENAI_API_KEY=your_openai_api_key
+    GROQ_API_KEY=your_groq_api_key
+    BRAVE_SEARCH_API_KEY=your_brave_search_api_key
+    SERPER_API=your_serper_api_key
+    ```
+Step 3. Run Docker with following command:
+
+    ```
+   docker run -d -p 3000:3000 -v /path/to/.env:/app/.env  abhishekkataria16/llm-answer-engine
+    ```
+
+To run the container via docker compose, create a docker-compose.yml file with following code:
+
+    ```
+        version: '3.8'
+
+        services:
+        llm-answer-engine:
+            image: abhishekkataria16/llm-answer-engine
+            ports:
+            - "3000:3000"
+            volumes:
+            - /path/to/.env:/app/.env
+    ```
+
+
 
 [Watch the tutorial here](https://youtu.be/kFC-OWw7G8k) for a detailed guide on setting up and running this project.
 
