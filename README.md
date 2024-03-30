@@ -5,7 +5,7 @@ You can deploy this Docker image on any amd64 machine by following these steps:
 Step 1. Pull the Docker Image: 
 
     ```
-    docker pull abhishekkataria16/llm-answer-engine
+    docker pull abhishekkataria16/llm-answer-engine:v1
     ```
 
 Step 2. Create a `.env` file and add your API keys:
@@ -32,7 +32,7 @@ Step 1: Create a docker-compose.yml file with following code:
 
     services:
       llm-answer-engine:
-        image: abhishekkataria16/llm-answer-engine
+        image: abhishekkataria16/llm-answer-engine:v1
         ports:
          - "3000:3000"
         volumes:
